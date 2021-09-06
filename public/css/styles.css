@@ -26,6 +26,10 @@ footer {
 footer p {
 	color: darkgray;
 }
+footer a {
+	color: #B7CBD5;
+	text-decoration: none;
+}
 
 h1 {
 	color: #696E93;
