@@ -18,7 +18,13 @@ weatherForm.addEventListener('submit', (e) => {
 			} else {
 				messageOne.textContent = data.location
 				messageTwo.textContent = data.weatherMessage
-				document.getElementById("weatherPic").src = data.weatherPic
+				if (data.currentWeather.weather_descriptions == "Sunny"){
+					document.getElementById("weatherPic").src = "/img/sunny.png"
+				}
+				else{
+					document.getElementById("weatherPic").src = data.weatherPic
+				}
+				
 			}
 		})
 	})
