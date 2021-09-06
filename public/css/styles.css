@@ -53,6 +53,7 @@ button {
 .portrait {
 	width: 150px;
 	border-radius: 50%;
+	box-shadow: 2px 9px 9px 0px #0000003d;
 }
 .main-content {
 	flex-grow: 1;
