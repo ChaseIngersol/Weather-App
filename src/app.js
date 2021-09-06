@@ -63,6 +63,7 @@ app.get('/weather', (req, res) => {
 				}
 				res.send({
 					currentWeather: currentWeatherData,
+					weatherPic: currentWeatherData.weather_img,
 					weatherMessage: weatherMessage,
 					location,
 					address: req.query.address

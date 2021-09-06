@@ -17,6 +17,7 @@ const currentWeather = (latitude, longitude, callback) => {
 				observation_time: body.current.observation_time + ' UTC',
 				temperature: body.current.temperature,
 				weather_descriptions: body.current.weather_descriptions[0],
+				weather_img: body.current.weather_icons[0],
 				wind_speed: body.current.wind_speed,
 				wind_degree: body.current.wind_degree,
 				pressure: body.current.pressure,

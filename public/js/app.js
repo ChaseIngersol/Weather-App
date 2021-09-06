@@ -18,6 +18,7 @@ weatherForm.addEventListener('submit', (e) => {
 			} else {
 				messageOne.textContent = data.location
 				messageTwo.textContent = data.weatherMessage
+				document.getElementById("weatherPic").src = data.weatherPic
 			}
 		})
 	})
