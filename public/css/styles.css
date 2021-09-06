@@ -51,7 +51,8 @@ button {
 	padding: 9px;
 }
 .portrait {
-	width: 250px;
+	width: 150px;
+	border-radius: 50%;
 }
 .main-content {
 	flex-grow: 1;
