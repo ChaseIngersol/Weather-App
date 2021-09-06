@@ -7,3 +7,5 @@ deployment:
     - /bin/cp -R templates $DEPLOYPATH
     - /bin/cp package-lock.json $DEPLOYPATH
     - /bin/cp package.json $DEPLOYPATH
+    - /bin/cp templates/partials/footer.hbs $DEPLOYPATH
+    - /bin/cp templates/partials/header.hbs $DEPLOYPATH
